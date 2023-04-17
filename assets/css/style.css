@@ -91,18 +91,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 850px) {
     .hello {
         background-color: #ffdce4;
-    }
-
-    .hello__container {
-        padding: 15px;
-    }
-
-    .hello__main-title a {
-        text-decoration: none;
         font-size: 32px;
         color: #511422;
         font-family: calibri;
         font-weight: 800;
+    }
+
+    .hello__container {
+        padding: 15px;
     }
 
     .content__item {
@@ -145,6 +141,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .hello {
     background-color: #ffdce4;
+    font-size: 84px;
+    color: #511422;
+    font-family: calibri;
+    font-weight: 800;
 }
 
 .hello__container {
@@ -154,14 +154,6 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.hello__main-title a {
-    text-decoration: none;
-    font-size: 84px;
-    color: #511422;
-    font-family: calibri;
-    font-weight: 800;
 }
 
 .content {
