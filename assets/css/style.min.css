@@ -130,22 +130,29 @@ h6 {
 }
 
 .content__header {
-  color: #000;
-  font-size: 72px;
-  font-family: montserrat;
+  font-size: 48px;
   font-weight: 800;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  opacity: .3;
+}
+
+.content__date,
+.content__header {
+  color: #000;
+  font-family: montserrat;
 }
 
 .content__date {
-  font-size: 24px;
+  font-size: 72px;
+  font-weight: 400;
+  margin-bottom: 35px;
   margin-top: 10px;
   opacity: .7;
-  margin-bottom: 30px;
+  border-bottom: 5px solid;
 }
 
 .content__line {
-  margin: 0 auto;
+  margin: 30px auto;
   opacity: .7;
   width: 80%;
   height: 1px;
@@ -181,21 +188,29 @@ h6 {
   }
 
   .content__header {
-    color: #000;
-    font-size: 32px;
-    font-family: montserrat;
+    font-size: 24px;
     font-weight: 800;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    opacity: .3;
+  }
+
+  .content__date,
+  .content__header {
+    color: #000;
+    font-family: montserrat;
   }
 
   .content__date {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
     margin-top: 10px;
     opacity: .7;
-    margin-bottom: 30px;
+    border-bottom: 3px solid;
   }
 
   .content__line {
-    margin: 0 auto;
+    margin: 30px auto;
     opacity: .7;
     width: 80%;
     height: 1px;
